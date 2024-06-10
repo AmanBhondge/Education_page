@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+}
+
+header {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(Assets/Background.jpg);
+    min-height: 100vh;
+
+
+}
+
+nav * {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav {
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+
+}
+
+nav h1:hover {
+
+    color: white;
+
+
+}
+
+nav h1 {
+
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.heading {
+    font-size: 60px;
+    color: gray;
+    font-weight: 600;
+
+}
+
+.navbar {
+
+    text-decoration: none;
+    font-size: 21px;
+    color: white;
+
+}
+
+.navbar ul {
+
+    display: flex;
+    list-style: none;
+
+
+
+}
+
+.navbar ul li {
+    padding: 8px;
+}
+
+.navbar ul li:hover {
+
+    
+    text-decoration: none ;
+    border-bottom: 2px solid aquamarine;
+
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.container h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.container p {
+    color: aqua;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 10px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+
+}
+
+.container button {
+
+    display: inline-block;
+    background-color: transparent;
+    color: aqua;
+    border: 1px solid aqua;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+
+}
+
+button:hover {
+
+    background-color: aqua;
+    color: blue;
+}
+
+/* box section  */
+
+.course {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+.course h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.course p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 10px;
+}
+
+.design {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+    justify-content: space-between;
+
+}
+
+.box1 {
+
+    flex-basis: 30%;
+    background: aliceblue;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+}
+
+.box1 h3 {
+
+    margin: 10px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.box1:hover {
+
+    box-shadow: 0 0 20px 0px aqua;
+}
+
+.campus {
+
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+    font-family: "Poppins", sans-serif;
+}
+
+.campus1 {
+
+    flex-basis: 350px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.campus1 img {
+
+    width: 100%;
+    display: block;
+}
+
+.fac {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.fac1 {
+    flex-basis: 71%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin: auto;
+    text-align: center;
+}
+
+.fac1 img {
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.fac1 p {
+    padding: 0;
+}
+
+.fac1 h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.more {
+    align-items: center;
+    text-align: center;
+}
+
+.more h1 {
+    font-size: 60px;
+    font-weight: 600;
+
+}
+
+.more p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 10px;
+}
+
+.bbox {
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Assets/back.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.bbox h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: aquamarine;
+}
+.bbox button{
+    display: inline-block;
+    background-color: transparent;
+    color: aqua;
+    border: 1px solid aqua;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.bbox button:hover {
+    
+    background-color: aqua;
+    color: blue;
+}
+.foot {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.foot h1 {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+.icons .fa-brands{
+    color: brown;
+    cursor: pointer;
+    margin: 0 15px;
+    padding: 18px 0;
+}
